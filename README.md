@@ -22,14 +22,12 @@ npm install
 Functions
 -------------
 
- - Grabs items according to listed entries in items_vehicles.json and items_weapons.json
-
 ```sh
-node getWeapons.js
+	// Grabs full weapons list from the ps2 api. Downloads a .txt and .png file per weapon
+	node getWeapons.js
 ```
 
- - Grab the entire repository of images from the archive
-
 ```sh
-node getImageRepository.js
+	// Grabs the entire repository of images from the ps2 api archives
+	node getImageRepository.js
 ```

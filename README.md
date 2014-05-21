@@ -14,20 +14,26 @@ Installation
 --------------
 
 ```sh
-git clone git@github.com:mononz/Planetside2-Databases.git
-cd Planetside2-Databases
-npm install
+	git clone git@github.com:mononz/Planetside2-Databases.git
+	cd Planetside2-Databases
+	npm install
 ```
+
+In the getWeapons.js file, replace the service_id with your own
+``` javascript
+	var service_id = 'example'; // Get your own here: http://census.soe.com/
+```
+
 
 Functions
 -------------
 
+Grabs full weapons list from the ps2 api. Downloads a .txt and .png file per weapon
 ```sh
-	// Grabs full weapons list from the ps2 api. Downloads a .txt and .png file per weapon
 	node getWeapons.js
 ```
 
+Grabs the entire repository of images from the ps2 api archives
 ```sh
-	// Grabs the entire repository of images from the ps2 api archives
 	node getImageRepository.js
 ```

@@ -1,0 +1,28 @@
+{
+  "name": "Planetside2-Databases",
+  "version": "0.1.0",
+  "description": "Accessing items and images from the planetside 2 api",
+  "main": "index.js",
+  "dependencies": {
+    "mkdirp": "^0.4.0",
+    "request": "^2.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mononz/Planetside2-Databases.git"
+  },
+  "keywords": [
+    "Planetside",
+    "2"
+  ],
+  "author": "Mononz Apps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mononz/Planetside2-Databases/issues"
+  },
+  "homepage": "https://github.com/mononz/Planetside2-Databases"
+}
